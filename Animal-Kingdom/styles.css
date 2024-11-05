@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Position static is default to all */
+/* Position sticky used in navbar */
+/* Position fixed used in second page */
+/* Position relative used in first page */
+/* Position absolute used in footer */
+nav {
+  background-color: black;
+  height: 30px;
+  /* Position sticky */
+  position: sticky;
+  top: 0;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  width: fit-content;
+  margin: auto;
+}
+a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  padding: 5px;
+}
+.content {
+  font-size: 20px;
+  width: fit-content;
+  margin: auto;
+  padding: 50px;
+}
+h1,
+h2 {
+  text-align: center;
+}
+.image {
+  width: fit-content;
+  margin: auto;
+  /* Position relative */
+  position: relative;
+  top: 50px;
+}
+img {
+  border: none;
+  border-radius: 10px;
+}
+footer {
+  /* Position absolute */
+  position: absolute;
+  bottom: 0;
+}
+
+/* Position fixed */
+.home {
+  background-color: rgb(255, 78, 78);
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  padding-top: 20px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border-radius: 50%;
+}

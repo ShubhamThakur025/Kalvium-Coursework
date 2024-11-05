@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Roboto&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Nunito Sans';
+}
+body{
+    background: url("https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png");
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+}
+table{
+    border-collapse: collapse;
+    border: none;
+    width: 60vw;
+    margin: 20px;
+}
+tr{
+    border-bottom: 1px solid rgb(230,230,230);
+}
+.top h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px rgb(149,149,149);
+    margin-left: 20px;
+}
+.top p{
+    color: rgb(140,140,140);
+    font-weight: bold;
+    margin-left : 20px;
+    font-size: 20px;
+}
+td{
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+    width: fit-content;
+    background-color: white;
+    
+}
+th{
+    background-color: rgb(240,80,51);
+    color: white;
+    text-align: left;
+    font-weight: normal;
+    padding: 10px 10px 10px 10px;
+}
+.right{
+    text-align: right;
+}
+#head-2 td{
+    background-color: rgb(250,250,250);
+}
+.names{
+    color: rgb(61,139,239);
+    font-weight: normal;
+    
+}
+.status{
+    color: rgb(166,167,167);
+    font-weight: normal;
+}
+.center{
+    text-align: center;
+}
+footer{
+    margin-left: 20px;
+}
+span{
+    color: red;
+    font-size: 20px;
+}
+

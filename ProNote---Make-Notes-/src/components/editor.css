@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 4vw;
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.input-text, .output-text{
+    height: 60vh;
+    width: 45vw;
+    border: 2px solid rgb(71, 71, 71);
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 2vw;
+    padding: 1vw;
+    color: white;
+    font-size: large;
+}
+.output-text{
+    height: 70vh;
+    width: 35vw;
+    background-color: rgb(70,70,70);
+    margin-right: 7vw;
+    box-shadow: 10px 11px 23px rgb(29,22,16);
+}

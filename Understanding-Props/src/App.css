@@ -1,0 +1,14 @@
+/* add your styles here */
+.row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    width: fit-content;
+    gap: 1vw;
+}
+.column img{
+    width: 40vw;
+}
+h1{
+    text-align: center;
+}

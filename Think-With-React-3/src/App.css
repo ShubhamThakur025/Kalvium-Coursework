@@ -1,0 +1,17 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#kalvium-text{
+  font-size: 3em;
+  font-weight: 900;
+}
+
+#kalvium-text:hover{
+  transform: scale(1.08);
+  color: rgb(255, 115, 180);
+  cursor: pointer;
+}

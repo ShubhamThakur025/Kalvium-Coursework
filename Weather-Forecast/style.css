@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', 'sans-serif';
+    text-align: center;
+    color: white;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+section{
+    margin: 4vw;
+}
+#right{    
+    background-color: rgba(30, 42, 77, 0.904);
+    /* background-color: rgba(255, 255, 255, 0.822); */
+    border-radius: 15px;
+    width: 50vw;
+    height: 80vh;
+    box-shadow: 2px 2px 20px black;
+}
+.weather-image{
+    max-width: fit-content;
+}
+.weather-image img{
+    width: 21vw;
+}
+#day{
+    margin-right: 1vw;
+}
+
+#left h1{
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 900;
+    margin-bottom: 1vw;
+    text-shadow: 2px 2px rgb(68, 68, 68);
+}
+#searchLocation{
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    text-align: left;
+    height: 35px;
+    justify-content: flex-start;
+    font-size: 15px;
+    padding: 10px;
+    color: rgb(46, 46, 46);
+}
+#date-day{
+    text-transform: capitalize;
+    font-size: 1.5vw;
+}
+#searchLocation::placeholder{
+    text-align: left;
+}
+
+.tab-1{
+    
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+}
+.tab-1 h1{
+    color: rgb(255, 255, 255);
+    font-size: 7vw;
+    margin-left: 2vw;
+}
+.tab-2 div{
+    color: rgb(255, 255, 255);
+    font-size: 3vw;
+}
+#search{
+    width: 2vw;
+    margin: 1vw;
+    cursor: pointer;
+}
+.input-loc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3vw;
+    
+}
+#location{
+    text-align: center;
+}

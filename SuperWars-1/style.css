@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#game-arena{
+    display: grid;
+    width:  fit-content;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.team{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.character{
+    border: 2px solid rgb(209,209,209);
+    padding: 1vw;
+    border-radius: 10px;
+    margin: 1vw;
+}
+.charStrength{
+    font-size: 3.5vw;
+    text-align: center;
+}
+.charName{
+    text-align: center;
+}
+.score{
+    font-size: 4vw;
+    text-align: center;
+    padding: 1.3vw;
+}
+#heart{
+    color: red;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    margin: 1vw;
+}
+

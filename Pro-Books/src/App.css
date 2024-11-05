@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.book-card{
+  margin: 2vw 1vw;
+}
+.left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Inter{
+  margin: 1vw 2vw;
+}
+.desc{
+  padding: 1vw;
+  font-size: 1.1vw;
+}
+.title{
+  font-weight: 900;
+  font-size: 1.2rem;
+
+  margin-left: 2vw;
+}
+img{
+  width: 10vw;
+}
+.author{
+  margin-left: 2vw;
+  font-style: italic;
+}
+span{
+  margin-right: 1vw;
+}

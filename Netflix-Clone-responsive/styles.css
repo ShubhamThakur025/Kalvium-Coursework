@@ -1,0 +1,303 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.top{
+    background: rgba(0,0,0,0.2)url("assets/Title-Image.png");
+    background-blend-mode: darken;
+    background-size: 100%;
+    background-repeat: no-repeat;
+      
+}
+.lists{
+    overflow-x: auto;
+    white-space: nowrap;
+}
+nav{
+    height: 10vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-bar{
+    display: flex;
+}
+.logo{
+    width: 15%;
+    margin: 30px;
+}
+nav ul li{
+    margin: 10px;    
+}
+.menu{
+    margin: 18px;
+}
+.menu li{
+    margin: 15px;
+}
+.title .name{
+    font-size:8vw;
+    font-weight: 300;    
+}
+.play-btn{
+    margin: 2vw 2vw;
+    display: flex;
+    padding: 0.4vw 1.3vw;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.play-btn p{
+    margin: 0.5vw;
+    color: black;
+    font-size: 1.5vw;
+}
+.info-btn{
+    margin: 2vw 2vw;
+    display: flex;
+    padding: 0.4vw 1.3vw;
+    align-items: center;
+    border: 0px solid white;
+    border-radius: 5px;
+    background-color: rgba(250,250,250,0.5);
+}
+.info-btn p{
+    margin: 5px;
+    color: white;
+    font-size: 1.5vw;
+    
+}
+.name-buttons{
+    display: flex;
+}
+
+.title{
+    margin: 20vh 10vw 0vh 0.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+.show{
+    display: flex;
+    align-items: end;
+
+}
+.search{
+    display: none;
+    width: 3vw;
+    margin:3vw;
+}
+.show img{
+    margin: 0.8vw;
+}
+.show p{
+    margin: 1vw;
+    letter-spacing: 0.5vw;
+    font-size: 1.5vw;
+}
+.show img{
+    width: 3vw;
+}
+.See-again-head{
+    display: flex;
+    align-items: center;
+}
+.middle{
+    background-color: rgb(20,20,20);
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+}
+.images img{
+    max-width: 210px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.top .footer{
+    margin-top: 100px;
+    margin-left: 46px;
+}
+.foot-bottom{
+    display: flex;
+    justify-content: space-between;
+}.foot-bottom img{
+    margin: 2vw 2vw;
+}
+#top10{
+    position: relative;
+    left: 255px;
+    top: 50px;
+}
+.topTen .images img{
+    height: 146px;
+    width: 100px;
+}
+.topTen .rank{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+footer{
+    background-color: rgb(20,20,20);
+    padding: 20px 20px;
+}
+.socials{
+    display: flex;
+}
+.socials img{
+    margin: 10px;
+}
+.bottom{
+    width: 70%;
+    margin: auto;
+}
+.bar-1,.bar-2,.bar-3{
+    height: 3px;
+    width: 30px;
+    background-color: rgb(255, 255, 255);
+    margin: 3px;
+    border-radius: 10px;
+}
+.bar{
+    display: none;
+}
+#menuContent{
+    background-color: rgba(0,0,0,0.3);
+    display: none;
+    position: absolute;
+}
+#menuContent ul li{
+    width: 100vw;
+    text-align: center;
+    list-style-type: none;
+    padding: 1vw;
+    font-size: 2vw;
+}
+.artists ul li{
+    color: rgb(128,128,128);
+    list-style: none;
+    margin: 20px 8px;
+}
+.artists{
+    display: flex;
+    justify-content: space-between;
+}
+.highlight{
+    color: rgb(128,128,128);
+    border: 2px solid rgb(128,128,128);
+    padding: 10px 10px;
+    max-width: fit-content;
+    margin: 20px 8px;
+}
+.copyright{
+    color: rgb(128,128,128);
+    margin: 20px 8px;
+}
+.heading{
+    display: flex;
+    margin-top: 2.5vw;
+    margin-left: 2.5vw;
+    align-items: center;
+}
+/* Media queries for the margin and size of title page texts */
+@media (max-width: 1398px){
+    nav{
+        height: 5vh;
+    }
+    .title{
+        margin: 10vh 5vw 0vh 0.025vw;
+    }
+}
+@media (max-width: 675px) {
+    .title{
+        margin: 10vh 0.25vw 0vh 0.001vw;
+    }
+}
+@media (max-width: 452px) {
+    .play-btn, .info-btn{
+        margin: 1vw 1vw;
+        padding: 0.5vw 1vw;
+        
+    }
+    .play-btn p, .info-btn p{
+        font-size: 3vw
+    }
+}
+/* Media queries for the website in portrait mode */
+@media (orientation: portrait){
+
+    /* Respnsive Navigation-Bar */
+    nav{
+        background-color: rgba(0,0,0,0.3);
+        padding: 1vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    .search{
+        display: block;
+    }
+    .bar{
+        display: block;
+        margin: 10px;
+    }
+    .menu, .nav-bar ul{
+        display: none;
+    }
+    .top{
+        background-image: url(assets/title3.png);
+        background-size: cover;
+    }
+    .artist-3, .artist-4{
+        display: none;
+    }
+    .top .footer{
+        margin-top: 21vw;
+        margin-left: 4.6vw;
+    }
+    .See-again-head p, .heading p{
+        font-size: 2vw;
+    }
+    .foot-bottom img, .heading img{
+        height: 2vw;
+        margin: 0.5vw;
+    }
+    .images img{
+        max-width: 1000px;
+        width: 300px;
+        margin: 3vw 6vw 0vw 6vw;
+    }
+    .topTen .images{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .images{
+        display: block;
+        /* Overflow for the scrolling of the thumbnails of shows */
+        overflow-x: auto;
+    }
+
+}
+/* Media queries for the background image  */
+@media (max-width: 972px){
+    .top{
+        background: url(assets/title2.png);
+        background-size: cover;
+    }
+}
+
+

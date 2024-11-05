@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CricPro</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <!-- Logo comes here -->
+        <div class="logo">
+            <img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-logo.JPG"
+                alt="something">
+        </div>
+    </header>
+    <div class="top">
+        <h1>ICC WORLD CUP 2011</h1>
+        <p>India Vs SriLanka ScoreCard</p>
+    </div>
+
+    <!-- Divison for the table of the names and status of the players -->
+    <div class="middle">
+        <table>
+            <tr>
+                <th colspan="5">India Innings</td>
+                <th colspan="2" class="right">277-4 (48.2)</td>
+            </tr>
+            <tr id="head-2">
+                <td colspan="2"> Batsman</td>
+                <td>R</td>
+                <td>B</td>
+                <td>4s</td>
+                <td>6s</td>
+                <td class="right">SR</td>
+            </tr>
+            <tr>
+                <td class="names" onclick="popup(0)">
+                    Virender Sehwag
+                    <div class="VS">
+                        <img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-sehwag.png"
+                            alt="">
+                    </div>
+                </td>
+                <td class="status">lbw b L Malinga</td>
+                <td>0</td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right">0.00</td>
+            </tr>
+            <tr>
+                <td class="names" onclick="popup(1)">
+                    Sachin Tendulkar
+                    <div class="VS">
+                        <img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-sachin.png"
+                            alt="">
+                    </div>
+                </td>
+                <td class="status">c k Sangakkara b L Malinga</td>
+                <td>18</td>
+                <td>14</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right">128.57</td>
+            </tr>
+            <tr>
+                <td class="names" onclick="popup(2)">
+                    Gautam Gambhir
+                    <div class="VS">
+                        <img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-gambhir.png"
+                            alt="">
+                    </div>
+                </td>
+                <td class="status">b T Perera</td>
+                <td>97</td>
+                <td>122</td>
+                <td>9</td>
+                <td>0</td>
+                <td class="right">79.51</td>
+            </tr>
+            <tr>
+                <td class="names" onclick="popup(3)">
+                    Virat Kohli
+                    <div class="VS">
+                        <img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-virat-kohli.png"
+                            alt="">
+                    </div>
+                </td>
+                <td class="status">c & b T Dilshan</td>
+                <td>35</td>
+                <td>49</td>
+                <td>4</td>
+                <td>0</td>
+                <td class="right">71.43</td>
+            </tr>
+            <tr>
+                <td class="names" onclick="popup(4)">
+                    MS Dhoni (c & wk)
+                    <div class="VS">
+                        <img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-dhoni.png"
+                            alt="">
+                    </div>
+                </td>
+                <td class="status">not out</td>
+                <td>91</td>
+                <td>79</td>
+                <td>8</td>
+                <td>0</td>
+                <td class="right">115.19</td>
+            </tr>
+            <tr>
+                <td class="names" onclick="popup(5)">
+                    Yuvraj Singh
+                    <div class="VS">
+                        <img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-yuvraj.png"
+                            alt="">
+                    </div>
+                </td>
+                <td class="status">not out</td>
+                <td>21</td>
+                <td>24</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right">87.50</td>
+            </tr>
+            <tr>
+                <td colspan="2">Extras</td>
+                <td colspan="5">15(b 1, lb 6, w 8, nb 0, p 0)</td>
+            </tr>
+            <tr>
+                <td colspan="2">Total</td>
+                <td colspan="5">277(4 wkts, 48.2 Ov)</td>
+            </tr>
+            <tr>
+                <td>Did not Bat</td>
+                <td colspan="6" class="names">
+                    <!-- List of the players yet to play -->
+                    <div class="name-list">
+                        <span>
+                            <p onclick="popup(6)">Suresh Raina,</p>
+                            <img class="VS"
+                                src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-suresh-raina.jpg"
+                                alt="">
+                        </span>
+                        <span>
+                            <p onclick="popup(7)">Harbhajan Singh,</p> <img class="VS"
+                                src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-harbhajan.jpg"
+                                alt="">
+                        </span>
+                        <span>
+                            <p onclick="popup(8)">Zaheer Khan,</p> <img class="VS"
+                                src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-zaheer-khan.jpg"
+                                alt="">
+                        </span>
+                        <span>
+                            <p onclick="popup(9)">Munaf Patel,</p> <img class="VS"
+                                src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-munaf-patel.jpg"
+                                alt="">
+                        </span>
+                        <span>
+                            <p onclick="popup(10)">S Sreesanth</p> <img class="VS"
+                                src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-sreeshanth.jpg"
+                                alt="">
+                        </span>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <footer class="footer">Made with <span  id="heart">♥</span> by Kalvian</footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

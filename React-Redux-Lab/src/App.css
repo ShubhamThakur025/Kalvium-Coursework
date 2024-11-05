@@ -1,0 +1,21 @@
+button{
+  background-color: black;
+  padding: 1.5vw 1vw;
+  border: none;
+  border-radius: 10px;
+  margin: 1vw;
+  width: 7vw;
+  color: rgb(233, 233, 233);
+  cursor: pointer;
+}
+
+h1{
+  font-size: 3.5vw;
+  text-align: center;
+}
+
+.counter{
+  max-width: fit-content;
+  margin: auto;
+  margin-top: 20vh;
+}

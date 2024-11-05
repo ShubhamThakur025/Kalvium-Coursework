@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Wars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="game-arena">
+        <!-- Div for the heroes -->
+        <div class="team" id="heores">
+            <!-- Every character is given same class to apply common styles on them -->
+            <!-- Id is given to each one to ensure ease in applying JS -->
+            <div class="character" id="hero-1">
+                <img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/super-1.png"
+                    alt="spiderman">
+                <p class="charName">Spiderman</p>
+                <div class="charStrength" id="score-1">
+                    12
+                </div>
+            </div>
+            <div class="character" id="hero-2">
+                <img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/super-3.png"
+                    alt="wonder-woman">
+                <p class="charName">Wonder Woman</p>
+                <div class="charStrength" id="score-2">
+                    30
+                </div>
+            </div>
+        </div>
+
+        <!-- Div for the score -->
+        <!-- Scores for Heroes and Villians are given separate id for updation -->
+        <div class="score">
+            <span id="hero-score">5</span>
+            <span>-</span>
+            <span id="villian-score">0</span>
+        </div>
+
+        <!-- Div for the villians -->
+        <div class="team" id="villians">
+            <div class="character" id="villian-1">
+                <img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/super-2.png"
+                    alt="spiderman">
+                <p class="charName">Captain America</p>
+                <div class="charStrength" id="score-3">
+                    50
+                </div>
+            </div>
+            <div class="character" id="villian-2">
+                <img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/super-4.png"
+                    alt="wonder-woman">
+                <p class="charName">Gem Woman</p>
+                <div class="charStrength" id="score-4">
+                    12
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer goes here -->
+    <footer class="footer">Made with <span id="heart">❤</span> by Kalvian, Shubham</footer>
+</body>
+
+</html>
